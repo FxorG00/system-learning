@@ -1,0 +1,3 @@
+/home/xgf/code/system-learning/cpp/week1/hello-cmake/build/CMakeFiles/rebuild_cache.dir
+/home/xgf/code/system-learning/cpp/week1/hello-cmake/build/CMakeFiles/edit_cache.dir
+/home/xgf/code/system-learning/cpp/week1/hello-cmake/build/CMakeFiles/hello.dir
