@@ -1,0 +1,3 @@
+written by std::cout
+written by printf
+written by write

@@ -1,0 +1,3 @@
+sendto(3, "retry works\n", 12, MSG_NOSIGNAL, NULL, 0) = -1 EINTR (Interrupted system call) (INJECTED)
+sendto(3, "retry works\n", 12, MSG_NOSIGNAL, NULL, 0) = 12
++++ exited with 0 +++

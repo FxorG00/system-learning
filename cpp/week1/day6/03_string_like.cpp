@@ -57,7 +57,14 @@ private:
 int main() {
     StringLike a("abc");
     StringLike b("hello world");
-    a = b;
+
+    StringLike c = a;   // 拷贝构造
+
+    a = b;              // 拷贝赋值
+
+    a = a;              // 自赋值
+
     std::cout << a.c_str() << " " << a.size() << std::endl;
+    std::cout << c.c_str() << " " << c.size() << std::endl;
     return 0;
 }
