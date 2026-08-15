@@ -6,10 +6,14 @@
             "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
+                "-std=c++17",
+                "-Wall",
+                "-Wextra",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-pthread"
             ],
             "options": {
                 "cwd": "${fileDirname}"
