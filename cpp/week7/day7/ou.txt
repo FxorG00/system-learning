@@ -1,0 +1,224 @@
+test A:
+repeat 1: 373 us, PASS
+repeat 2: 378 us, PASS
+repeat 3: 217 us, PASS
+repeat 4: 186 us, PASS
+repeat 5: 170 us, PASS
+repeat 6: 120 us, PASS
+repeat 7: 609 us, PASS
+repeat 8: 181 us, PASS
+repeat 9: 138 us, PASS
+repeat 10: 165 us, PASS
+median: 186 us
+average: 253.7 us
+
+test B:
+repeat 1: 189 us, PASS
+repeat 2: 197 us, PASS
+repeat 3: 198 us, PASS
+repeat 4: 202 us, PASS
+repeat 5: 134 us, PASS
+repeat 6: 186 us, PASS
+repeat 7: 146 us, PASS
+repeat 8: 136 us, PASS
+repeat 9: 176 us, PASS
+repeat 10: 134 us, PASS
+median: 186 us
+average: 169.8 us
+
+test C:
+repeat 1: 185 us, PASS
+repeat 2: 152 us, PASS
+repeat 3: 142 us, PASS
+repeat 4: 126 us, PASS
+repeat 5: 111 us, PASS
+repeat 6: 116 us, PASS
+repeat 7: 112 us, PASS
+repeat 8: 114 us, PASS
+repeat 9: 125 us, PASS
+repeat 10: 107 us, PASS
+median: 125 us
+average: 129 us
+
+test D:
+repeat 1: 187 us, PASS
+repeat 2: 207 us, PASS
+repeat 3: 277 us, PASS
+repeat 4: 336 us, PASS
+repeat 5: 436 us, PASS
+repeat 6: 264 us, PASS
+repeat 7: 357 us, PASS
+repeat 8: 302 us, PASS
+repeat 9: 303 us, PASS
+repeat 10: 195 us, PASS
+median: 302 us
+average: 286.4 us
+
+test A:
+repeat 1: 3109 us, PASS
+repeat 2: 2955 us, PASS
+repeat 3: 2610 us, PASS
+repeat 4: 2504 us, PASS
+repeat 5: 2647 us, PASS
+repeat 6: 2686 us, PASS
+repeat 7: 2623 us, PASS
+repeat 8: 3272 us, PASS
+repeat 9: 2358 us, PASS
+repeat 10: 1882 us, PASS
+median: 2647 us
+average: 2664.6 us
+
+test B:
+repeat 1: 421 us, PASS
+repeat 2: 384 us, PASS
+repeat 3: 508 us, PASS
+repeat 4: 651 us, PASS
+repeat 5: 350 us, PASS
+repeat 6: 306 us, PASS
+repeat 7: 232 us, PASS
+repeat 8: 272 us, PASS
+repeat 9: 229 us, PASS
+repeat 10: 175 us, PASS
+median: 350 us
+average: 352.8 us
+
+test C:
+repeat 1: 581 us, PASS
+repeat 2: 582 us, PASS
+repeat 3: 613 us, PASS
+repeat 4: 615 us, PASS
+repeat 5: 588 us, PASS
+repeat 6: 600 us, PASS
+repeat 7: 594 us, PASS
+repeat 8: 576 us, PASS
+repeat 9: 620 us, PASS
+repeat 10: 1773 us, PASS
+median: 600 us
+average: 714.2 us
+
+test D:
+repeat 1: 581 us, PASS
+repeat 2: 582 us, PASS
+repeat 3: 586 us, PASS
+repeat 4: 622 us, PASS
+repeat 5: 713 us, PASS
+repeat 6: 577 us, PASS
+repeat 7: 582 us, PASS
+repeat 8: 590 us, PASS
+repeat 9: 576 us, PASS
+repeat 10: 745 us, PASS
+median: 586 us
+average: 615.4 us
+
+test A:
+repeat 1: 100218 us, PASS
+repeat 2: 90146 us, PASS
+repeat 3: 91257 us, PASS
+repeat 4: 86052 us, PASS
+repeat 5: 83929 us, PASS
+repeat 6: 93492 us, PASS
+repeat 7: 86159 us, PASS
+repeat 8: 86578 us, PASS
+repeat 9: 91833 us, PASS
+repeat 10: 97351 us, PASS
+median: 91257 us
+average: 90701.5 us
+
+test B:
+repeat 1: 3544 us, PASS
+repeat 2: 3787 us, PASS
+repeat 3: 3673 us, PASS
+repeat 4: 3807 us, PASS
+repeat 5: 3884 us, PASS
+repeat 6: 3795 us, PASS
+repeat 7: 3753 us, PASS
+repeat 8: 3885 us, PASS
+repeat 9: 3768 us, PASS
+repeat 10: 3961 us, PASS
+median: 3795 us
+average: 3785.7 us
+
+test C:
+repeat 1: 20834 us, PASS
+repeat 2: 19414 us, PASS
+repeat 3: 20697 us, PASS
+repeat 4: 19636 us, PASS
+repeat 5: 19543 us, PASS
+repeat 6: 19675 us, PASS
+repeat 7: 19926 us, PASS
+repeat 8: 20009 us, PASS
+repeat 9: 21521 us, PASS
+repeat 10: 18825 us, PASS
+median: 19926 us
+average: 20008 us
+
+test D:
+repeat 1: 5524 us, PASS
+repeat 2: 5341 us, PASS
+repeat 3: 5741 us, PASS
+repeat 4: 5792 us, PASS
+repeat 5: 5356 us, PASS
+repeat 6: 5341 us, PASS
+repeat 7: 5460 us, PASS
+repeat 8: 5606 us, PASS
+repeat 9: 5535 us, PASS
+repeat 10: 5762 us, PASS
+median: 5535 us
+average: 5545.8 us
+
+test A:
+repeat 1: 151201 us, PASS
+repeat 2: 164708 us, PASS
+repeat 3: 160204 us, PASS
+repeat 4: 167014 us, PASS
+repeat 5: 169205 us, PASS
+repeat 6: 170391 us, PASS
+repeat 7: 165553 us, PASS
+repeat 8: 168670 us, PASS
+repeat 9: 170345 us, PASS
+repeat 10: 166324 us, PASS
+median: 167014 us
+average: 165362 us
+
+test B:
+repeat 1: 7144 us, PASS
+repeat 2: 8257 us, PASS
+repeat 3: 7156 us, PASS
+repeat 4: 8330 us, PASS
+repeat 5: 8497 us, PASS
+repeat 6: 7120 us, PASS
+repeat 7: 7102 us, PASS
+repeat 8: 7479 us, PASS
+repeat 9: 7013 us, PASS
+repeat 10: 7142 us, PASS
+median: 7156 us
+average: 7524 us
+
+test C:
+repeat 1: 39933 us, PASS
+repeat 2: 37255 us, PASS
+repeat 3: 41217 us, PASS
+repeat 4: 44239 us, PASS
+repeat 5: 44109 us, PASS
+repeat 6: 41779 us, PASS
+repeat 7: 42427 us, PASS
+repeat 8: 43095 us, PASS
+repeat 9: 39461 us, PASS
+repeat 10: 38524 us, PASS
+median: 41779 us
+average: 41203.9 us
+
+test D:
+repeat 1: 5649 us, PASS
+repeat 2: 6362 us, PASS
+repeat 3: 5702 us, PASS
+repeat 4: 5758 us, PASS
+repeat 5: 5876 us, PASS
+repeat 6: 5635 us, PASS
+repeat 7: 5780 us, PASS
+repeat 8: 5783 us, PASS
+repeat 9: 5677 us, PASS
+repeat 10: 6003 us, PASS
+median: 5780 us
+average: 5822.5 us
+
