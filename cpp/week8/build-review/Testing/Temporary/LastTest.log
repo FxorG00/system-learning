@@ -1,0 +1,462 @@
+Start testing: Aug 26 00:00 PDT
+----------------------------------------------------------
+1/17 Testing: ThreadPoolTest.ConstructWithZeroWorkerCount
+1/17 Test: ThreadPoolTest.ConstructWithZeroWorkerCount
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.ConstructWithZeroWorkerCount" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.ConstructWithZeroWorkerCount" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.ConstructWithZeroWorkerCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.ConstructWithZeroWorkerCount
+[       OK ] ThreadPoolTest.ConstructWithZeroWorkerCount (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.ConstructWithZeroWorkerCount" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.ConstructWithZeroWorkerCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/17 Testing: ThreadPoolTest.SubmitWithReturnIntValue
+2/17 Test: ThreadPoolTest.SubmitWithReturnIntValue
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.SubmitWithReturnIntValue" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.SubmitWithReturnIntValue" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.SubmitWithReturnIntValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.SubmitWithReturnIntValue
+[       OK ] ThreadPoolTest.SubmitWithReturnIntValue (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.SubmitWithReturnIntValue" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.SubmitWithReturnIntValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/17 Testing: ThreadPoolTest.SubmitWithReturnVoid
+3/17 Test: ThreadPoolTest.SubmitWithReturnVoid
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.SubmitWithReturnVoid" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.SubmitWithReturnVoid" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.SubmitWithReturnVoid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.SubmitWithReturnVoid
+[       OK ] ThreadPoolTest.SubmitWithReturnVoid (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.SubmitWithReturnVoid" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.SubmitWithReturnVoid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/17 Testing: ThreadPoolTest.SubmitWithThrowExceptionCallable
+4/17 Test: ThreadPoolTest.SubmitWithThrowExceptionCallable
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.SubmitWithThrowExceptionCallable" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.SubmitWithThrowExceptionCallable" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.SubmitWithThrowExceptionCallable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.SubmitWithThrowExceptionCallable
+[       OK ] ThreadPoolTest.SubmitWithThrowExceptionCallable (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.SubmitWithThrowExceptionCallable" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.SubmitWithThrowExceptionCallable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/17 Testing: ThreadPoolTest.SubmitAfterShutdown
+5/17 Test: ThreadPoolTest.SubmitAfterShutdown
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.SubmitAfterShutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.SubmitAfterShutdown" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.SubmitAfterShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.SubmitAfterShutdown
+[       OK ] ThreadPoolTest.SubmitAfterShutdown (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.SubmitAfterShutdown" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.SubmitAfterShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/17 Testing: ThreadPoolTest.AllTestBecomeCompleted
+6/17 Test: ThreadPoolTest.AllTestBecomeCompleted
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.AllTestBecomeCompleted" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.AllTestBecomeCompleted" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.AllTestBecomeCompleted
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.AllTestBecomeCompleted
+[       OK ] ThreadPoolTest.AllTestBecomeCompleted (0 ms)
+[----------] 1 test from ThreadPoolTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.AllTestBecomeCompleted" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.AllTestBecomeCompleted" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/17 Testing: ThreadPoolTest.StillPendingTasksWhenShutdown
+7/17 Test: ThreadPoolTest.StillPendingTasksWhenShutdown
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.StillPendingTasksWhenShutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.StillPendingTasksWhenShutdown" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.StillPendingTasksWhenShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.StillPendingTasksWhenShutdown
+[       OK ] ThreadPoolTest.StillPendingTasksWhenShutdown (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.StillPendingTasksWhenShutdown" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.StillPendingTasksWhenShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/17 Testing: ThreadPoolTest.SubmitWithEmptyFunction
+8/17 Test: ThreadPoolTest.SubmitWithEmptyFunction
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.SubmitWithEmptyFunction" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.SubmitWithEmptyFunction" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.SubmitWithEmptyFunction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.SubmitWithEmptyFunction
+[       OK ] ThreadPoolTest.SubmitWithEmptyFunction (0 ms)
+[----------] 1 test from ThreadPoolTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.SubmitWithEmptyFunction" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.SubmitWithEmptyFunction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/17 Testing: ThreadPoolTest.MultipleConcurrentSubmitters
+9/17 Test: ThreadPoolTest.MultipleConcurrentSubmitters
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.MultipleConcurrentSubmitters" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.MultipleConcurrentSubmitters" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.MultipleConcurrentSubmitters
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.MultipleConcurrentSubmitters
+[       OK ] ThreadPoolTest.MultipleConcurrentSubmitters (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.MultipleConcurrentSubmitters" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.MultipleConcurrentSubmitters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/17 Testing: ThreadPoolTest.CheckDestructorContract
+10/17 Test: ThreadPoolTest.CheckDestructorContract
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/thread_pool_test" "--gtest_filter=ThreadPoolTest.CheckDestructorContract" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"ThreadPoolTest.CheckDestructorContract" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ThreadPoolTest.CheckDestructorContract
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ThreadPoolTest
+[ RUN      ] ThreadPoolTest.CheckDestructorContract
+[       OK ] ThreadPoolTest.CheckDestructorContract (1 ms)
+[----------] 1 test from ThreadPoolTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ThreadPoolTest.CheckDestructorContract" end time: Aug 26 00:00 PDT
+"ThreadPoolTest.CheckDestructorContract" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/17 Testing: AsyncLoggerTest.NormalStringTest
+11/17 Test: AsyncLoggerTest.NormalStringTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.NormalStringTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.NormalStringTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.NormalStringTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.NormalStringTest
+[       OK ] AsyncLoggerTest.NormalStringTest (1 ms)
+[----------] 1 test from AsyncLoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.NormalStringTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.NormalStringTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/17 Testing: AsyncLoggerTest.RejectsZeroCapacity
+12/17 Test: AsyncLoggerTest.RejectsZeroCapacity
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsZeroCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.RejectsZeroCapacity" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsZeroCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsZeroCapacity
+[       OK ] AsyncLoggerTest.RejectsZeroCapacity (1 ms)
+[----------] 1 test from AsyncLoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsZeroCapacity" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsZeroCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/17 Testing: AsyncLoggerTest.RejectsOutputOpenFailure
+13/17 Test: AsyncLoggerTest.RejectsOutputOpenFailure
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsOutputOpenFailure" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.RejectsOutputOpenFailure" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsOutputOpenFailure
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsOutputOpenFailure
+[       OK ] AsyncLoggerTest.RejectsOutputOpenFailure (0 ms)
+[----------] 1 test from AsyncLoggerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsOutputOpenFailure" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsOutputOpenFailure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/17 Testing: AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+14/17 Test: AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+[       OK ] AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce (2 ms)
+[----------] 1 test from AsyncLoggerTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/17 Testing: AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+15/17 Test: AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+[       OK ] AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown (0 ms)
+[----------] 1 test from AsyncLoggerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/17 Testing: AsyncLoggerTest.AccountingTest
+16/17 Test: AsyncLoggerTest.AccountingTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.AccountingTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.AccountingTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.AccountingTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.AccountingTest
+[       OK ] AsyncLoggerTest.AccountingTest (0 ms)
+[----------] 1 test from AsyncLoggerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.AccountingTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.AccountingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/17 Testing: AsyncLoggerTest.DevFullTest
+17/17 Test: AsyncLoggerTest.DevFullTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review/async_logger_test" "--gtest_filter=AsyncLoggerTest.DevFullTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review
+"AsyncLoggerTest.DevFullTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.DevFullTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.DevFullTest
+[       OK ] AsyncLoggerTest.DevFullTest (0 ms)
+[----------] 1 test from AsyncLoggerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.DevFullTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.DevFullTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 26 00:00 PDT

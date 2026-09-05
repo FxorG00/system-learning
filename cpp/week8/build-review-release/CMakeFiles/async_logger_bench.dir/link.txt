@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/async_logger_bench.dir/benchmark/async_logger_bench.cpp.o  -o async_logger_bench  libasync_logger.a -lpthread 

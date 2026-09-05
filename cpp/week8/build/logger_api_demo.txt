@@ -1,0 +1,5 @@
+Producer: 0 log: 0
+Producer: 1 log: 0
+Producer: 1 log: 1
+Producer: 1 log: 2
+Producer: 1 log: 3

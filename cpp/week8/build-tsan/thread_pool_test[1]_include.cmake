@@ -1,0 +1,5 @@
+if(EXISTS "/home/xgf/code/system-learning/cpp/week8/build-tsan/thread_pool_test[1]_tests.cmake")
+  include("/home/xgf/code/system-learning/cpp/week8/build-tsan/thread_pool_test[1]_tests.cmake")
+else()
+  add_test(thread_pool_test_NOT_BUILT thread_pool_test_NOT_BUILT)
+endif()

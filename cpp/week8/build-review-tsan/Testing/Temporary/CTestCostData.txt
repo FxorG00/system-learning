@@ -1,0 +1,8 @@
+AsyncLoggerTest.NormalStringTest 2 0.00377865
+AsyncLoggerTest.RejectsZeroCapacity 2 0.00328871
+AsyncLoggerTest.RejectsOutputOpenFailure 2 0.00317014
+AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce 2 0.00637634
+AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown 2 0.00372113
+AsyncLoggerTest.AccountingTest 2 0.00600989
+AsyncLoggerTest.DevFullTest 2 0.00336956
+---

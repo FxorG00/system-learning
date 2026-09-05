@@ -1,0 +1,19 @@
+ThreadPoolTest.ConstructWithZeroWorkerCount 42 6.36222e-05
+ThreadPoolTest.SubmitWithReturnIntValue 42 7.60563e-05
+ThreadPoolTest.SubmitWithThrowExceptionCallable 42 6.28491e-05
+ThreadPoolTest.SubmitAfterShutdown 42 4.79678e-05
+ThreadPoolTest.AllTestBecomeCompleted 42 3.67898e-05
+ThreadPoolTest.SubmitWithReturnVoid 40 8.78634e-05
+ThreadPoolTest.StillPendingTasksWhenShutdown 26 6.02119e-05
+ThreadPoolTest.SubmitWithEmptyFunction 26 5.50553e-05
+ThreadPoolTest.MultipleConcurrentSubmitters 26 6.86827e-05
+ThreadPoolTest.CheckDestructorContract 25 8.18533e-05
+AsyncLoggerTest.NormalStringTest 20 8.84762e-05
+AsyncLoggerTest.RejectsZeroCapacity 18 5.86972e-05
+AsyncLoggerTest.RejectsOutputOpenFailure 17 6.20565e-05
+AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce 15 0.000223631
+AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown 14 8.37497e-05
+AsyncLoggerTest.AccountingTest 10 0.000156714
+AsyncLoggerTest.DevFullTest 3 0.000372081
+component_demo_smoke 1 0.00252248
+---

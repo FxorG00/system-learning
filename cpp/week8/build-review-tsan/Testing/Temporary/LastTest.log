@@ -1,0 +1,192 @@
+Start testing: Aug 26 00:00 PDT
+----------------------------------------------------------
+11/17 Testing: AsyncLoggerTest.NormalStringTest
+11/17 Test: AsyncLoggerTest.NormalStringTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.NormalStringTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.NormalStringTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.NormalStringTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.NormalStringTest
+[       OK ] AsyncLoggerTest.NormalStringTest (2 ms)
+[----------] 1 test from AsyncLoggerTest (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.NormalStringTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.NormalStringTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/17 Testing: AsyncLoggerTest.RejectsZeroCapacity
+12/17 Test: AsyncLoggerTest.RejectsZeroCapacity
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsZeroCapacity" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.RejectsZeroCapacity" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsZeroCapacity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsZeroCapacity
+[       OK ] AsyncLoggerTest.RejectsZeroCapacity (1 ms)
+[----------] 1 test from AsyncLoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsZeroCapacity" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsZeroCapacity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/17 Testing: AsyncLoggerTest.RejectsOutputOpenFailure
+13/17 Test: AsyncLoggerTest.RejectsOutputOpenFailure
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsOutputOpenFailure" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.RejectsOutputOpenFailure" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsOutputOpenFailure
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsOutputOpenFailure
+[       OK ] AsyncLoggerTest.RejectsOutputOpenFailure (0 ms)
+[----------] 1 test from AsyncLoggerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsOutputOpenFailure" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsOutputOpenFailure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/17 Testing: AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+14/17 Test: AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce
+[       OK ] AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce (6 ms)
+[----------] 1 test from AsyncLoggerTest (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (6 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.AcceptsRecordsFromMultipleProducersExactlyOnce" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/17 Testing: AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+15/17 Test: AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown
+[       OK ] AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown (1 ms)
+[----------] 1 test from AsyncLoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.RejectsLogAfterShutdownAndAllowsRepeatedShutdown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/17 Testing: AsyncLoggerTest.AccountingTest
+16/17 Test: AsyncLoggerTest.AccountingTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.AccountingTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.AccountingTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.AccountingTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.AccountingTest
+[       OK ] AsyncLoggerTest.AccountingTest (5 ms)
+[----------] 1 test from AsyncLoggerTest (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.AccountingTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.AccountingTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/17 Testing: AsyncLoggerTest.DevFullTest
+17/17 Test: AsyncLoggerTest.DevFullTest
+Command: "/home/xgf/code/system-learning/cpp/week8/build-review-tsan/async_logger_test" "--gtest_filter=AsyncLoggerTest.DevFullTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week8/build-review-tsan
+"AsyncLoggerTest.DevFullTest" start time: Aug 26 00:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = AsyncLoggerTest.DevFullTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AsyncLoggerTest
+[ RUN      ] AsyncLoggerTest.DevFullTest
+[       OK ] AsyncLoggerTest.DevFullTest (1 ms)
+[----------] 1 test from AsyncLoggerTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AsyncLoggerTest.DevFullTest" end time: Aug 26 00:00 PDT
+"AsyncLoggerTest.DevFullTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 26 00:00 PDT

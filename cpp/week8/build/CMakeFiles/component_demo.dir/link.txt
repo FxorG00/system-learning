@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/component_demo.dir/demos/component_demo.cpp.o  -o component_demo  libasync_logger.a -lpthread 

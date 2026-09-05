@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/xgf/code/system-learning/cpp/week8/build",
+  "command": "/usr/bin/c++   -I/home/xgf/code/system-learning/cpp/week8/include  -g   -Wall -Wextra -std=c++17 -o CMakeFiles/component_demo.dir/demos/component_demo.cpp.o -c /home/xgf/code/system-learning/cpp/week8/demos/component_demo.cpp",
+  "file": "/home/xgf/code/system-learning/cpp/week8/demos/component_demo.cpp"
+},
+{
+  "directory": "/home/xgf/code/system-learning/cpp/week8/build",
+  "command": "/usr/bin/c++   -I/home/xgf/code/system-learning/cpp/week8/include  -g   -Wall -Wextra -g -std=c++17 -o CMakeFiles/async_logger_test.dir/tests/async_logger_test.cpp.o -c /home/xgf/code/system-learning/cpp/week8/tests/async_logger_test.cpp",
+  "file": "/home/xgf/code/system-learning/cpp/week8/tests/async_logger_test.cpp"
+},
+{
+  "directory": "/home/xgf/code/system-learning/cpp/week8/build",
+  "command": "/usr/bin/c++   -I/home/xgf/code/system-learning/cpp/week8/include  -g   -Wall -Wextra -g -std=c++17 -o CMakeFiles/async_logger_bench.dir/benchmark/async_logger_bench.cpp.o -c /home/xgf/code/system-learning/cpp/week8/benchmark/async_logger_bench.cpp",
+  "file": "/home/xgf/code/system-learning/cpp/week8/benchmark/async_logger_bench.cpp"
+},
+{
+  "directory": "/home/xgf/code/system-learning/cpp/week8/build",
+  "command": "/usr/bin/c++   -I/home/xgf/code/system-learning/cpp/week8/include  -g   -Wall -Wextra -g -std=c++17 -o CMakeFiles/thread_pool_test.dir/tests/thread_pool_test.cpp.o -c /home/xgf/code/system-learning/cpp/week8/tests/thread_pool_test.cpp",
+  "file": "/home/xgf/code/system-learning/cpp/week8/tests/thread_pool_test.cpp"
+},
+{
+  "directory": "/home/xgf/code/system-learning/cpp/week8/build",
+  "command": "/usr/bin/c++   -I/home/xgf/code/system-learning/cpp/week8/include  -g   -Wall -Wextra -g -std=c++17 -o CMakeFiles/async_logger.dir/src/async_logger.cpp.o -c /home/xgf/code/system-learning/cpp/week8/src/async_logger.cpp",
+  "file": "/home/xgf/code/system-learning/cpp/week8/src/async_logger.cpp"
+}
+]

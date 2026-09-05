@@ -11,26 +11,10 @@
 #include <type_traits>
 #include <utility>
 
-using Task = std::packaged_task<void()>;
+using Task = std::function<void()>;
 
 class ThreadPool {
 public:
-    // task 执行时抛异常不能让其影响到外面。
-    // 所以要用 try catch 去捕获异常
-    // 如果 task 抛异常了，认为该 task 失败，failed_count++
-    // 否则认为该 task 成功，executed_count++
-    static void work(BlockingQueue<Task>& tasks) {
-        while(1) {
-            std::optional<Task> value=tasks.pop();
-            if(value) {
-                // 如果调用 packaged_task 发生了 exception
-                // 不会向外抛，会把 exception 写入 shared state
-                (*value)();
-            } else {
-                return ;
-            }
-        }
-    }    
     // constructor
     // 应该创建 workers，并且做好创建失败去 join 以及抛出原异常的准备
     // 初始化好 tasks
@@ -79,13 +63,18 @@ public:
     auto submit(F&& function, Args&&... args) {
         using return_type=std::invoke_result_t<F, Args...>;
         auto later=std::bind(std::forward<F>(function),std::forward<Args>(args)...);
-        std::packaged_task<return_type()> task(later);
-        // 因为对 packaged_task 来说，我并不需要知道其返回值
+        std::packaged_task<return_type()> task(std::move(later));
+        // 因为对 packaged_task 来说，我并不需要知道其内部 callable 返回值
+        // 而且 packaged_task() 是没有返回值的
         // 其返回值会在 task 执行结束后写入 shared_state
         // consumer 可通过 future 去 get
         std::future<return_type> future=task.get_future();
-        Task task_element(std::move(task));
-        // packaged_task 是 move-only 的
+        // 搞出来 shared_ptr 指向这个 task
+        // 这样后续 capture shared_ptr 的 lambda 就可以 copy 了
+        auto shared_ptr=std::make_shared<std::packaged_task<return_type()> >(std::move(task));
+        Task task_element=[shared_ptr]() {
+            (*shared_ptr)();
+        };
         if(tasks.push(std::move(task_element))) {
             return future;
         } else {
@@ -97,6 +86,22 @@ public:
         shutdown();
     }
 private:
+    // task 执行时抛异常不能让其影响到外面。
+    // 所以要用 try catch 去捕获异常
+    // 如果 task 抛异常了，认为该 task 失败，failed_count++
+    // 否则认为该 task 成功，executed_count++
+    static void work(BlockingQueue<Task>& tasks) {
+        while(1) {
+            std::optional<Task> value=tasks.pop();
+            if(value) {
+                // 如果调用 packaged_task 发生了 exception
+                // 不会向外抛，会把 exception 写入 shared state
+                (*value)();
+            } else {
+                return ;
+            }
+        }
+    }    
     BlockingQueue<Task>tasks;
     std::vector<std::thread>workers;
 };

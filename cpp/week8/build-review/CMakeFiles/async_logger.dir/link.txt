@@ -1,0 +1,2 @@
+/usr/bin/ar qc libasync_logger.a  CMakeFiles/async_logger.dir/src/async_logger.cpp.o
+/usr/bin/ranlib libasync_logger.a

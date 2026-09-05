@@ -1,0 +1,5 @@
+if(EXISTS "/home/xgf/code/system-learning/cpp/week8/build/async_logger_test[1]_tests.cmake")
+  include("/home/xgf/code/system-learning/cpp/week8/build/async_logger_test[1]_tests.cmake")
+else()
+  add_test(async_logger_test_NOT_BUILT async_logger_test_NOT_BUILT)
+endif()
