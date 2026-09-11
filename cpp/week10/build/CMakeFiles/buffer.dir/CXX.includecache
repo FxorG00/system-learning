@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/reactor/buffer.hpp
+cstddef
+-
+string
+-
+vector
+-
+stdexcept
+-
+cstring
+-
+
+/home/xgf/code/system-learning/cpp/week10/src/buffer.cpp
+buffer.hpp
+/home/xgf/code/system-learning/cpp/week10/src/buffer.hpp
+

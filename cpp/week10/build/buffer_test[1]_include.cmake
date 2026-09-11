@@ -1,0 +1,5 @@
+if(EXISTS "/home/xgf/code/system-learning/cpp/week10/build/buffer_test[1]_tests.cmake")
+  include("/home/xgf/code/system-learning/cpp/week10/build/buffer_test[1]_tests.cmake")
+else()
+  add_test(buffer_test_NOT_BUILT buffer_test_NOT_BUILT)
+endif()

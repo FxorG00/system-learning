@@ -12,6 +12,8 @@
 #include <set>
 
 bool set_nonblocking(int fd) {
+    // 对 fd 指向的 open file description 设置 O_NONBLOCK 这个 file status flag
+    // 这样能让这个 fd 对应的 socket 的 recv,send non-blocking
     const int old_flags = ::fcntl(fd, F_GETFL);
     if (old_flags == -1) {
         return false;

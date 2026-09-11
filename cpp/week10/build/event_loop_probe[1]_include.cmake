@@ -1,0 +1,5 @@
+if(EXISTS "/home/xgf/code/system-learning/cpp/week10/build/event_loop_probe[1]_tests.cmake")
+  include("/home/xgf/code/system-learning/cpp/week10/build/event_loop_probe[1]_tests.cmake")
+else()
+  add_test(event_loop_probe_NOT_BUILT event_loop_probe_NOT_BUILT)
+endif()

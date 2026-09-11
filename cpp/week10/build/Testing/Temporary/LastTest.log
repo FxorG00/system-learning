@@ -1,0 +1,302 @@
+Start testing: Sep 11 03:00 PDT
+----------------------------------------------------------
+1/11 Testing: BufferTest.AppendAndPartialRetrieve
+1/11 Test: BufferTest.AppendAndPartialRetrieve
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.AppendAndPartialRetrieve" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.AppendAndPartialRetrieve" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.AppendAndPartialRetrieve
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.AppendAndPartialRetrieve
+[       OK ] BufferTest.AppendAndPartialRetrieve (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.AppendAndPartialRetrieve" end time: Sep 11 03:00 PDT
+"BufferTest.AppendAndPartialRetrieve" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: BufferTest.RetrieveThenAppend
+2/11 Test: BufferTest.RetrieveThenAppend
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.RetrieveThenAppend" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.RetrieveThenAppend" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.RetrieveThenAppend
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.RetrieveThenAppend
+[       OK ] BufferTest.RetrieveThenAppend (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.RetrieveThenAppend" end time: Sep 11 03:00 PDT
+"BufferTest.RetrieveThenAppend" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: BufferTest.RetrieveWorks
+3/11 Test: BufferTest.RetrieveWorks
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.RetrieveWorks" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.RetrieveWorks" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.RetrieveWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.RetrieveWorks
+[       OK ] BufferTest.RetrieveWorks (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.RetrieveWorks" end time: Sep 11 03:00 PDT
+"BufferTest.RetrieveWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: BufferTest.BinaryBytes
+4/11 Test: BufferTest.BinaryBytes
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.BinaryBytes" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.BinaryBytes" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.BinaryBytes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.BinaryBytes
+[       OK ] BufferTest.BinaryBytes (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.BinaryBytes" end time: Sep 11 03:00 PDT
+"BufferTest.BinaryBytes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: BufferTest.OutOfRange
+5/11 Test: BufferTest.OutOfRange
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.OutOfRange" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.OutOfRange" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.OutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.OutOfRange
+[       OK ] BufferTest.OutOfRange (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.OutOfRange" end time: Sep 11 03:00 PDT
+"BufferTest.OutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: BufferTest.EmptyBufferTest
+6/11 Test: BufferTest.EmptyBufferTest
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.EmptyBufferTest" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.EmptyBufferTest" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.EmptyBufferTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.EmptyBufferTest
+[       OK ] BufferTest.EmptyBufferTest (0 ms)
+[----------] 1 test from BufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.EmptyBufferTest" end time: Sep 11 03:00 PDT
+"BufferTest.EmptyBufferTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: BufferTest.BigConsumedPrefix
+7/11 Test: BufferTest.BigConsumedPrefix
+Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.BigConsumedPrefix" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"BufferTest.BigConsumedPrefix" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = BufferTest.BigConsumedPrefix
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BufferTest
+[ RUN      ] BufferTest.BigConsumedPrefix
+[       OK ] BufferTest.BigConsumedPrefix (4 ms)
+[----------] 1 test from BufferTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (4 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"BufferTest.BigConsumedPrefix" end time: Sep 11 03:00 PDT
+"BufferTest.BigConsumedPrefix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: ChannelTest.InitialState
+8/11 Test: ChannelTest.InitialState
+Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.InitialState" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"ChannelTest.InitialState" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.InitialState
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.InitialState
+[       OK ] ChannelTest.InitialState (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.InitialState" end time: Sep 11 03:00 PDT
+"ChannelTest.InitialState" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: ChannelTest.InterestAndReadyAreIndependent
+9/11 Test: ChannelTest.InterestAndReadyAreIndependent
+Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.InterestAndReadyAreIndependent" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"ChannelTest.InterestAndReadyAreIndependent" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.InterestAndReadyAreIndependent
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.InterestAndReadyAreIndependent
+[       OK ] ChannelTest.InterestAndReadyAreIndependent (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.InterestAndReadyAreIndependent" end time: Sep 11 03:00 PDT
+"ChannelTest.InterestAndReadyAreIndependent" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: ChannelTest.MissingCallbackIsSkipped
+10/11 Test: ChannelTest.MissingCallbackIsSkipped
+Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.MissingCallbackIsSkipped" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"ChannelTest.MissingCallbackIsSkipped" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.MissingCallbackIsSkipped
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.MissingCallbackIsSkipped
+[       OK ] ChannelTest.MissingCallbackIsSkipped (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.MissingCallbackIsSkipped" end time: Sep 11 03:00 PDT
+"ChannelTest.MissingCallbackIsSkipped" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: ChannelTest.CombinedReadWriteDispatchesBoth
+11/11 Test: ChannelTest.CombinedReadWriteDispatchesBoth
+Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.CombinedReadWriteDispatchesBoth" "--gtest_also_run_disabled_tests"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"ChannelTest.CombinedReadWriteDispatchesBoth" start time: Sep 11 03:00 PDT
+Output:
+----------------------------------------------------------
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = ChannelTest.CombinedReadWriteDispatchesBoth
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ChannelTest
+[ RUN      ] ChannelTest.CombinedReadWriteDispatchesBoth
+this is read call_back, and value: 5
+this is write call_back
+[       OK ] ChannelTest.CombinedReadWriteDispatchesBoth (0 ms)
+[----------] 1 test from ChannelTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ChannelTest.CombinedReadWriteDispatchesBoth" end time: Sep 11 03:00 PDT
+"ChannelTest.CombinedReadWriteDispatchesBoth" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 11 03:00 PDT
