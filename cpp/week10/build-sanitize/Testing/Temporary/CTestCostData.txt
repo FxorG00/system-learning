@@ -1,0 +1,15 @@
+BufferTest.AppendAndPartialRetrieve 4 0.00180312
+BufferTest.RetrieveThenAppend 4 0.00224746
+BufferTest.RetrieveWorks 4 0.00188435
+BufferTest.BinaryBytes 4 0.00184253
+BufferTest.OutOfRange 4 0.00178279
+BufferTest.EmptyBufferTest 4 0.00186965
+BufferTest.BigConsumedPrefix 4 0.00380372
+ChannelTest.InitialState 4 0.00214293
+ChannelTest.InterestAndReadyAreIndependent 4 0.00179356
+ChannelTest.MissingCallbackIsSkipped 4 0.00165505
+ChannelTest.CombinedReadWriteDispatchesBoth 4 0.00200115
+event_loop_probe 4 0.0262764
+acceptor_probe 4 0.00198713
+connection_checker 4 0.00916053
+---

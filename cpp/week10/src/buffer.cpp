@@ -1,4 +1,5 @@
 #include "buffer.hpp"
+#include <iostream>
 Buffer::Buffer(std::size_t initial_capacity) {
     data_.reserve(initial_capacity);
 }
@@ -61,6 +62,7 @@ void Buffer::append(const char* data, std::size_t length){
 }
 void Buffer::retrieve(std::size_t length){
     if(length>readable_bytes()) {
+        // std::cout<<length<<" "<<readable_bytes()<<'\n';
         throw std::out_of_range("retrieve length exceeds readable bytes");
     }
     offset+=length;

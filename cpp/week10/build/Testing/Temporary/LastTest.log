@@ -1,10 +1,10 @@
-Start testing: Sep 11 03:00 PDT
+Start testing: Sep 14 22:40 PDT
 ----------------------------------------------------------
-1/11 Testing: BufferTest.AppendAndPartialRetrieve
-1/11 Test: BufferTest.AppendAndPartialRetrieve
+1/14 Testing: BufferTest.AppendAndPartialRetrieve
+1/14 Test: BufferTest.AppendAndPartialRetrieve
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.AppendAndPartialRetrieve" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.AppendAndPartialRetrieve" start time: Sep 11 03:00 PDT
+"BufferTest.AppendAndPartialRetrieve" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = BufferTest.AppendAndPartialRetrieve
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.AppendAndPartialRetrieve" end time: Sep 11 03:00 PDT
+"BufferTest.AppendAndPartialRetrieve" end time: Sep 14 22:40 PDT
 "BufferTest.AppendAndPartialRetrieve" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/11 Testing: BufferTest.RetrieveThenAppend
-2/11 Test: BufferTest.RetrieveThenAppend
+2/14 Testing: BufferTest.RetrieveThenAppend
+2/14 Test: BufferTest.RetrieveThenAppend
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.RetrieveThenAppend" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.RetrieveThenAppend" start time: Sep 11 03:00 PDT
+"BufferTest.RetrieveThenAppend" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = BufferTest.RetrieveThenAppend
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.RetrieveThenAppend" end time: Sep 11 03:00 PDT
+"BufferTest.RetrieveThenAppend" end time: Sep 14 22:40 PDT
 "BufferTest.RetrieveThenAppend" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/11 Testing: BufferTest.RetrieveWorks
-3/11 Test: BufferTest.RetrieveWorks
+3/14 Testing: BufferTest.RetrieveWorks
+3/14 Test: BufferTest.RetrieveWorks
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.RetrieveWorks" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.RetrieveWorks" start time: Sep 11 03:00 PDT
+"BufferTest.RetrieveWorks" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = BufferTest.RetrieveWorks
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.RetrieveWorks" end time: Sep 11 03:00 PDT
+"BufferTest.RetrieveWorks" end time: Sep 14 22:40 PDT
 "BufferTest.RetrieveWorks" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/11 Testing: BufferTest.BinaryBytes
-4/11 Test: BufferTest.BinaryBytes
+4/14 Testing: BufferTest.BinaryBytes
+4/14 Test: BufferTest.BinaryBytes
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.BinaryBytes" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.BinaryBytes" start time: Sep 11 03:00 PDT
+"BufferTest.BinaryBytes" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = BufferTest.BinaryBytes
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.BinaryBytes" end time: Sep 11 03:00 PDT
+"BufferTest.BinaryBytes" end time: Sep 14 22:40 PDT
 "BufferTest.BinaryBytes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/11 Testing: BufferTest.OutOfRange
-5/11 Test: BufferTest.OutOfRange
+5/14 Testing: BufferTest.OutOfRange
+5/14 Test: BufferTest.OutOfRange
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.OutOfRange" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.OutOfRange" start time: Sep 11 03:00 PDT
+"BufferTest.OutOfRange" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = BufferTest.OutOfRange
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.OutOfRange" end time: Sep 11 03:00 PDT
+"BufferTest.OutOfRange" end time: Sep 14 22:40 PDT
 "BufferTest.OutOfRange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/11 Testing: BufferTest.EmptyBufferTest
-6/11 Test: BufferTest.EmptyBufferTest
+6/14 Testing: BufferTest.EmptyBufferTest
+6/14 Test: BufferTest.EmptyBufferTest
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.EmptyBufferTest" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.EmptyBufferTest" start time: Sep 11 03:00 PDT
+"BufferTest.EmptyBufferTest" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -152,21 +152,21 @@ Note: Google Test filter = BufferTest.EmptyBufferTest
 [----------] 1 test from BufferTest (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (0 ms total)
+[==========] 1 test from 1 test suite ran. (1 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.EmptyBufferTest" end time: Sep 11 03:00 PDT
+"BufferTest.EmptyBufferTest" end time: Sep 14 22:40 PDT
 "BufferTest.EmptyBufferTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/11 Testing: BufferTest.BigConsumedPrefix
-7/11 Test: BufferTest.BigConsumedPrefix
+7/14 Testing: BufferTest.BigConsumedPrefix
+7/14 Test: BufferTest.BigConsumedPrefix
 Command: "/home/xgf/code/system-learning/cpp/week10/build/buffer_test" "--gtest_filter=BufferTest.BigConsumedPrefix" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"BufferTest.BigConsumedPrefix" start time: Sep 11 03:00 PDT
+"BufferTest.BigConsumedPrefix" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = BufferTest.BigConsumedPrefix
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"BufferTest.BigConsumedPrefix" end time: Sep 11 03:00 PDT
+"BufferTest.BigConsumedPrefix" end time: Sep 14 22:40 PDT
 "BufferTest.BigConsumedPrefix" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/11 Testing: ChannelTest.InitialState
-8/11 Test: ChannelTest.InitialState
+8/14 Testing: ChannelTest.InitialState
+8/14 Test: ChannelTest.InitialState
 Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.InitialState" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"ChannelTest.InitialState" start time: Sep 11 03:00 PDT
+"ChannelTest.InitialState" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = ChannelTest.InitialState
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChannelTest.InitialState" end time: Sep 11 03:00 PDT
+"ChannelTest.InitialState" end time: Sep 14 22:40 PDT
 "ChannelTest.InitialState" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/11 Testing: ChannelTest.InterestAndReadyAreIndependent
-9/11 Test: ChannelTest.InterestAndReadyAreIndependent
+9/14 Testing: ChannelTest.InterestAndReadyAreIndependent
+9/14 Test: ChannelTest.InterestAndReadyAreIndependent
 Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.InterestAndReadyAreIndependent" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"ChannelTest.InterestAndReadyAreIndependent" start time: Sep 11 03:00 PDT
+"ChannelTest.InterestAndReadyAreIndependent" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = ChannelTest.InterestAndReadyAreIndependent
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChannelTest.InterestAndReadyAreIndependent" end time: Sep 11 03:00 PDT
+"ChannelTest.InterestAndReadyAreIndependent" end time: Sep 14 22:40 PDT
 "ChannelTest.InterestAndReadyAreIndependent" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/11 Testing: ChannelTest.MissingCallbackIsSkipped
-10/11 Test: ChannelTest.MissingCallbackIsSkipped
+10/14 Testing: ChannelTest.MissingCallbackIsSkipped
+10/14 Test: ChannelTest.MissingCallbackIsSkipped
 Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.MissingCallbackIsSkipped" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"ChannelTest.MissingCallbackIsSkipped" start time: Sep 11 03:00 PDT
+"ChannelTest.MissingCallbackIsSkipped" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -266,15 +266,15 @@ Note: Google Test filter = ChannelTest.MissingCallbackIsSkipped
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChannelTest.MissingCallbackIsSkipped" end time: Sep 11 03:00 PDT
+"ChannelTest.MissingCallbackIsSkipped" end time: Sep 14 22:40 PDT
 "ChannelTest.MissingCallbackIsSkipped" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/11 Testing: ChannelTest.CombinedReadWriteDispatchesBoth
-11/11 Test: ChannelTest.CombinedReadWriteDispatchesBoth
+11/14 Testing: ChannelTest.CombinedReadWriteDispatchesBoth
+11/14 Test: ChannelTest.CombinedReadWriteDispatchesBoth
 Command: "/home/xgf/code/system-learning/cpp/week10/build/channel_test" "--gtest_filter=ChannelTest.CombinedReadWriteDispatchesBoth" "--gtest_also_run_disabled_tests"
 Directory: /home/xgf/code/system-learning/cpp/week10/build
-"ChannelTest.CombinedReadWriteDispatchesBoth" start time: Sep 11 03:00 PDT
+"ChannelTest.CombinedReadWriteDispatchesBoth" start time: Sep 14 22:40 PDT
 Output:
 ----------------------------------------------------------
 Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
@@ -295,8 +295,66 @@ this is write call_back
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"ChannelTest.CombinedReadWriteDispatchesBoth" end time: Sep 11 03:00 PDT
+"ChannelTest.CombinedReadWriteDispatchesBoth" end time: Sep 14 22:40 PDT
 "ChannelTest.CombinedReadWriteDispatchesBoth" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 11 03:00 PDT
+12/14 Testing: event_loop_probe
+12/14 Test: event_loop_probe
+Command: "/home/xgf/code/system-learning/cpp/week10/build/event_loop_probe"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"event_loop_probe" start time: Sep 14 22:40 PDT
+Output:
+----------------------------------------------------------
+EVENT_LOOP_PROBE_PASS
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"event_loop_probe" end time: Sep 14 22:40 PDT
+"event_loop_probe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/14 Testing: acceptor_probe
+13/14 Test: acceptor_probe
+Command: "/home/xgf/code/system-learning/cpp/week10/build/acceptor_probe"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"acceptor_probe" start time: Sep 14 22:40 PDT
+Output:
+----------------------------------------------------------
+port: 38137
+ACCEPTOR_PASS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"acceptor_probe" end time: Sep 14 22:40 PDT
+"acceptor_probe" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/14 Testing: connection_checker
+14/14 Test: connection_checker
+Command: "/home/xgf/code/system-learning/cpp/week10/build/connection_checker"
+Directory: /home/xgf/code/system-learning/cpp/week10/build
+"connection_checker" start time: Sep 14 22:40 PDT
+Output:
+----------------------------------------------------------
+CHECK 1: construct and start
+CHECK 1 PASS
+CHECK 2: fragmented input and MessageCallback
+CHECK 2 PASS
+CHECK 3: pending output and EPOLLOUT resume
+2097152 2097152
+CHECK 3 PASS
+CHECK 4: peer EOF and idempotent close request
+CHECK 4 PASS
+CONNECTION_CHECKER_PASS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"connection_checker" end time: Sep 14 22:40 PDT
+"connection_checker" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 14 22:40 PDT

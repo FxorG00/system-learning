@@ -1,13 +1,15 @@
-BufferTest.AppendAndPartialRetrieve 25 6.78232e-05
-BufferTest.RetrieveThenAppend 19 6.14678e-05
-BufferTest.RetrieveWorks 24 7.05305e-05
-BufferTest.BinaryBytes 21 9.50773e-05
-BufferTest.OutOfRange 20 6.05871e-05
-BufferTest.EmptyBuferTest 3 0.000449175
-BufferTest.BigConsumedPrefix 7 0.000755853
-BufferTest.EmptyBufferTest 5 0.000227827
-ChannelTest.InitialState 4 0.000449903
-ChannelTest.InterestAndReadyAreIndependent 4 0.000463454
-ChannelTest.MissingCallbackIsSkipped 4 0.000377446
-ChannelTest.CombinedReadWriteDispatchesBoth 3 0.000364755
+BufferTest.AppendAndPartialRetrieve 3 0.000660054
+BufferTest.RetrieveThenAppend 3 0.000727083
+BufferTest.RetrieveWorks 3 0.000735697
+BufferTest.BinaryBytes 3 0.000388577
+BufferTest.OutOfRange 3 0.000404047
+BufferTest.EmptyBufferTest 3 0.00038945
+BufferTest.BigConsumedPrefix 3 0.00176943
+ChannelTest.InitialState 3 0.000491845
+ChannelTest.InterestAndReadyAreIndependent 3 0.000444815
+ChannelTest.MissingCallbackIsSkipped 3 0.000378907
+ChannelTest.CombinedReadWriteDispatchesBoth 3 0.000601539
+event_loop_probe 3 0.031747
+acceptor_probe 3 0.000514809
+connection_checker 3 0.00603683
 ---

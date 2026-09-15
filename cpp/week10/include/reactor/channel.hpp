@@ -22,7 +22,8 @@ public:
 
     std::uint32_t interest_events() const noexcept;
     void set_interest_events(std::uint32_t events) noexcept;
-
+    void add_interest_events(std::uint32_t events) noexcept;
+    void del_interest_events(std::uint32_t events) noexcept;
     std::uint32_t ready_events() const noexcept;
     void set_ready_events(std::uint32_t events) noexcept;
 

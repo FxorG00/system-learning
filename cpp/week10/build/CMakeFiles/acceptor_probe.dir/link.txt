@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/acceptor_probe.dir/tests/acceptor_probe.cpp.o  -o acceptor_probe  libacceptor.a libevent_loop.a libchannel.a -lpthread 

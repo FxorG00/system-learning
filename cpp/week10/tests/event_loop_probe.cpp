@@ -1,11 +1,13 @@
 #include "event_loop.hpp"
 
 #include <cerrno>
+#include <chrono>
 #include <iostream>
 #include <stdexcept>
 #include <system_error>
 #include <sys/epoll.h>
 #include <sys/socket.h>
+#include <thread>
 #include <unistd.h>
 
 namespace {
@@ -32,6 +34,11 @@ public:
         ::close(fds_[0]);
         ::close(fds_[1]);
     }
+
+    SocketPair(const SocketPair&) = delete;
+    SocketPair& operator=(const SocketPair&) = delete;
+    SocketPair(SocketPair&&) = delete;
+    SocketPair& operator=(SocketPair&&) = delete;
 
     int sender() const noexcept { return fds_[0]; }
     int receiver() const noexcept { return fds_[1]; }
@@ -66,18 +73,31 @@ int main() {
         require(loop.poll_once(20) == 0,
                 "no-data poll should time out with zero records");
 
-        require(::send(sockets.sender(), "A", 1, MSG_NOSIGNAL) == 1,
-                "failed to send A");
-        require(loop.poll_once(20) == 1,
-                "one registered fd should produce one read record");
+        const int sender_fd = sockets.sender();
+        ssize_t send_result = -1;
+        std::thread delayed_sender([sender_fd, &send_result] {
+            std::this_thread::sleep_for(std::chrono::milliseconds(30));
+            send_result = ::send(sender_fd, "A", 1, MSG_NOSIGNAL);
+        });
+
+        int read_records = 0;
+        try {
+            read_records = loop.poll_once(-1);
+        } catch (...) {
+            delayed_sender.join();
+            throw;
+        }
+        delayed_sender.join();
+
+        require(send_result == 1, "delayed sender failed to send A");
+        require(read_records == 1,
+                "infinite wait poll should return one read record");
         require(read_calls == 1 && observed == 'A',
                 "read readiness was not dispatched exactly once");
 
         channel.set_interest_events(EPOLLOUT);
         loop.update_channel(channel);
         const int write_records = loop.poll_once(20);
-        std::cerr << "DIAGNOSTIC write_records=" << write_records
-                  << " write_calls=" << write_calls << '\n';
         require(write_records == 1,
                 "one registered fd should produce one write record");
         require(write_calls == 1,
@@ -100,10 +120,10 @@ int main() {
         require(read_calls == 1 && write_calls == 1,
                 "callback ran after Channel removal");
 
-        std::cout << "EVENT_LOOP_CODEX_PROBE_PASS\n";
+        std::cout << "EVENT_LOOP_PROBE_PASS\n";
         return 0;
     } catch (const std::exception& error) {
-        std::cerr << "EVENT_LOOP_CODEX_PROBE_FAIL: " << error.what() << '\n';
+        std::cerr << "EVENT_LOOP_PROBE_FAIL: " << error.what() << '\n';
         return 1;
     }
 }

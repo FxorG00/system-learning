@@ -1,0 +1,1 @@
+/usr/bin/c++  -fsanitize=address,undefined -fno-omit-frame-pointer -g  -fsanitize=address,undefined CMakeFiles/buffer_test.dir/tests/buffer_test.cpp.o  -o buffer_test  libbuffer.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 

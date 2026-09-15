@@ -95,10 +95,81 @@ target_compile_options(event_loop_probe PRIVATE
 target_include_directories(event_loop_probe PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include/reactor
 )
-gtest_discover_tests(event_loop_probe)
+add_test(
+    NAME event_loop_probe
+    COMMAND event_loop_probe
+)
 target_link_libraries(event_loop_probe PUBLIC
     Threads::Threads
     event_loop
     GTest::gtest_main
     GTest::gtest
 )
+
+# acceptor
+add_library(acceptor src/acceptor.cpp)
+target_compile_options(acceptor PRIVATE
+    -Wall
+    -Wextra
+    -g
+)
+target_include_directories(acceptor PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/reactor
+)
+target_link_libraries(acceptor PUBLIC
+    event_loop
+)
+
+add_executable(acceptor_probe tests/acceptor_probe.cpp)
+target_compile_options(acceptor_probe PRIVATE
+    -Wall
+    -Wextra
+    -g
+)
+target_link_libraries(acceptor_probe PRIVATE
+    acceptor
+)
+
+add_test(
+    NAME acceptor_probe
+    COMMAND acceptor_probe
+)
+
+# connection
+add_library(connection src/connection.cpp)
+target_include_directories(connection PUBLIC
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/reactor
+)
+target_compile_options(connection PRIVATE
+    -Wall
+    -Wextra
+    -g
+)
+target_link_libraries(connection PUBLIC
+    event_loop
+    buffer
+)
+
+add_executable(reactor_echo_server apps/reactor_echo_server.cpp)
+target_compile_options(reactor_echo_server PRIVATE
+    -Wall
+    -Wextra
+    -g
+)
+target_link_libraries(reactor_echo_server PRIVATE
+    acceptor
+    connection
+)
+
+add_executable(connection_checker tests/connection_checker.cpp)
+target_compile_options(connection_checker PRIVATE
+    -Wall
+    -Wextra
+    -g
+)
+target_link_libraries(connection_checker PRIVATE
+    connection
+)
+
+add_test(NAME connection_checker COMMAND connection_checker)
+set_tests_properties(connection_checker PROPERTIES TIMEOUT 15)

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/reactor_echo_server.dir/apps/reactor_echo_server.cpp.o  -o reactor_echo_server  libacceptor.a libconnection.a libevent_loop.a libchannel.a libbuffer.a -lpthread 

@@ -122,56 +122,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named event_loop
+# Target rules for targets named buffer
 
 # Build rule for target.
-event_loop: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 event_loop
-.PHONY : event_loop
+buffer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buffer
+.PHONY : buffer
 
 # fast build rule for target.
-event_loop/fast:
-	$(MAKE) -f CMakeFiles/event_loop.dir/build.make CMakeFiles/event_loop.dir/build
-.PHONY : event_loop/fast
-
-#=============================================================================
-# Target rules for targets named channel_test
-
-# Build rule for target.
-channel_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 channel_test
-.PHONY : channel_test
-
-# fast build rule for target.
-channel_test/fast:
-	$(MAKE) -f CMakeFiles/channel_test.dir/build.make CMakeFiles/channel_test.dir/build
-.PHONY : channel_test/fast
-
-#=============================================================================
-# Target rules for targets named channel
-
-# Build rule for target.
-channel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 channel
-.PHONY : channel
-
-# fast build rule for target.
-channel/fast:
-	$(MAKE) -f CMakeFiles/channel.dir/build.make CMakeFiles/channel.dir/build
-.PHONY : channel/fast
-
-#=============================================================================
-# Target rules for targets named buffer_test
-
-# Build rule for target.
-buffer_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 buffer_test
-.PHONY : buffer_test
-
-# fast build rule for target.
-buffer_test/fast:
-	$(MAKE) -f CMakeFiles/buffer_test.dir/build.make CMakeFiles/buffer_test.dir/build
-.PHONY : buffer_test/fast
+buffer/fast:
+	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/build
+.PHONY : buffer/fast
 
 #=============================================================================
 # Target rules for targets named event_loop_probe
@@ -187,17 +148,175 @@ event_loop_probe/fast:
 .PHONY : event_loop_probe/fast
 
 #=============================================================================
-# Target rules for targets named buffer
+# Target rules for targets named buffer_test
 
 # Build rule for target.
-buffer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 buffer
-.PHONY : buffer
+buffer_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 buffer_test
+.PHONY : buffer_test
 
 # fast build rule for target.
-buffer/fast:
-	$(MAKE) -f CMakeFiles/buffer.dir/build.make CMakeFiles/buffer.dir/build
-.PHONY : buffer/fast
+buffer_test/fast:
+	$(MAKE) -f CMakeFiles/buffer_test.dir/build.make CMakeFiles/buffer_test.dir/build
+.PHONY : buffer_test/fast
+
+#=============================================================================
+# Target rules for targets named channel
+
+# Build rule for target.
+channel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 channel
+.PHONY : channel
+
+# fast build rule for target.
+channel/fast:
+	$(MAKE) -f CMakeFiles/channel.dir/build.make CMakeFiles/channel.dir/build
+.PHONY : channel/fast
+
+#=============================================================================
+# Target rules for targets named channel_test
+
+# Build rule for target.
+channel_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 channel_test
+.PHONY : channel_test
+
+# fast build rule for target.
+channel_test/fast:
+	$(MAKE) -f CMakeFiles/channel_test.dir/build.make CMakeFiles/channel_test.dir/build
+.PHONY : channel_test/fast
+
+#=============================================================================
+# Target rules for targets named event_loop
+
+# Build rule for target.
+event_loop: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 event_loop
+.PHONY : event_loop
+
+# fast build rule for target.
+event_loop/fast:
+	$(MAKE) -f CMakeFiles/event_loop.dir/build.make CMakeFiles/event_loop.dir/build
+.PHONY : event_loop/fast
+
+#=============================================================================
+# Target rules for targets named acceptor
+
+# Build rule for target.
+acceptor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 acceptor
+.PHONY : acceptor
+
+# fast build rule for target.
+acceptor/fast:
+	$(MAKE) -f CMakeFiles/acceptor.dir/build.make CMakeFiles/acceptor.dir/build
+.PHONY : acceptor/fast
+
+#=============================================================================
+# Target rules for targets named acceptor_probe
+
+# Build rule for target.
+acceptor_probe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 acceptor_probe
+.PHONY : acceptor_probe
+
+# fast build rule for target.
+acceptor_probe/fast:
+	$(MAKE) -f CMakeFiles/acceptor_probe.dir/build.make CMakeFiles/acceptor_probe.dir/build
+.PHONY : acceptor_probe/fast
+
+#=============================================================================
+# Target rules for targets named reactor_echo_server
+
+# Build rule for target.
+reactor_echo_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reactor_echo_server
+.PHONY : reactor_echo_server
+
+# fast build rule for target.
+reactor_echo_server/fast:
+	$(MAKE) -f CMakeFiles/reactor_echo_server.dir/build.make CMakeFiles/reactor_echo_server.dir/build
+.PHONY : reactor_echo_server/fast
+
+#=============================================================================
+# Target rules for targets named connection
+
+# Build rule for target.
+connection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connection
+.PHONY : connection
+
+# fast build rule for target.
+connection/fast:
+	$(MAKE) -f CMakeFiles/connection.dir/build.make CMakeFiles/connection.dir/build
+.PHONY : connection/fast
+
+#=============================================================================
+# Target rules for targets named connection_checker
+
+# Build rule for target.
+connection_checker: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 connection_checker
+.PHONY : connection_checker
+
+# fast build rule for target.
+connection_checker/fast:
+	$(MAKE) -f CMakeFiles/connection_checker.dir/build.make CMakeFiles/connection_checker.dir/build
+.PHONY : connection_checker/fast
+
+apps/reactor_echo_server.o: apps/reactor_echo_server.cpp.o
+
+.PHONY : apps/reactor_echo_server.o
+
+# target to build an object file
+apps/reactor_echo_server.cpp.o:
+	$(MAKE) -f CMakeFiles/reactor_echo_server.dir/build.make CMakeFiles/reactor_echo_server.dir/apps/reactor_echo_server.cpp.o
+.PHONY : apps/reactor_echo_server.cpp.o
+
+apps/reactor_echo_server.i: apps/reactor_echo_server.cpp.i
+
+.PHONY : apps/reactor_echo_server.i
+
+# target to preprocess a source file
+apps/reactor_echo_server.cpp.i:
+	$(MAKE) -f CMakeFiles/reactor_echo_server.dir/build.make CMakeFiles/reactor_echo_server.dir/apps/reactor_echo_server.cpp.i
+.PHONY : apps/reactor_echo_server.cpp.i
+
+apps/reactor_echo_server.s: apps/reactor_echo_server.cpp.s
+
+.PHONY : apps/reactor_echo_server.s
+
+# target to generate assembly for a file
+apps/reactor_echo_server.cpp.s:
+	$(MAKE) -f CMakeFiles/reactor_echo_server.dir/build.make CMakeFiles/reactor_echo_server.dir/apps/reactor_echo_server.cpp.s
+.PHONY : apps/reactor_echo_server.cpp.s
+
+src/acceptor.o: src/acceptor.cpp.o
+
+.PHONY : src/acceptor.o
+
+# target to build an object file
+src/acceptor.cpp.o:
+	$(MAKE) -f CMakeFiles/acceptor.dir/build.make CMakeFiles/acceptor.dir/src/acceptor.cpp.o
+.PHONY : src/acceptor.cpp.o
+
+src/acceptor.i: src/acceptor.cpp.i
+
+.PHONY : src/acceptor.i
+
+# target to preprocess a source file
+src/acceptor.cpp.i:
+	$(MAKE) -f CMakeFiles/acceptor.dir/build.make CMakeFiles/acceptor.dir/src/acceptor.cpp.i
+.PHONY : src/acceptor.cpp.i
+
+src/acceptor.s: src/acceptor.cpp.s
+
+.PHONY : src/acceptor.s
+
+# target to generate assembly for a file
+src/acceptor.cpp.s:
+	$(MAKE) -f CMakeFiles/acceptor.dir/build.make CMakeFiles/acceptor.dir/src/acceptor.cpp.s
+.PHONY : src/acceptor.cpp.s
 
 src/buffer.o: src/buffer.cpp.o
 
@@ -253,6 +372,33 @@ src/channel.cpp.s:
 	$(MAKE) -f CMakeFiles/channel.dir/build.make CMakeFiles/channel.dir/src/channel.cpp.s
 .PHONY : src/channel.cpp.s
 
+src/connection.o: src/connection.cpp.o
+
+.PHONY : src/connection.o
+
+# target to build an object file
+src/connection.cpp.o:
+	$(MAKE) -f CMakeFiles/connection.dir/build.make CMakeFiles/connection.dir/src/connection.cpp.o
+.PHONY : src/connection.cpp.o
+
+src/connection.i: src/connection.cpp.i
+
+.PHONY : src/connection.i
+
+# target to preprocess a source file
+src/connection.cpp.i:
+	$(MAKE) -f CMakeFiles/connection.dir/build.make CMakeFiles/connection.dir/src/connection.cpp.i
+.PHONY : src/connection.cpp.i
+
+src/connection.s: src/connection.cpp.s
+
+.PHONY : src/connection.s
+
+# target to generate assembly for a file
+src/connection.cpp.s:
+	$(MAKE) -f CMakeFiles/connection.dir/build.make CMakeFiles/connection.dir/src/connection.cpp.s
+.PHONY : src/connection.cpp.s
+
 src/event_loop.o: src/event_loop.cpp.o
 
 .PHONY : src/event_loop.o
@@ -279,6 +425,33 @@ src/event_loop.s: src/event_loop.cpp.s
 src/event_loop.cpp.s:
 	$(MAKE) -f CMakeFiles/event_loop.dir/build.make CMakeFiles/event_loop.dir/src/event_loop.cpp.s
 .PHONY : src/event_loop.cpp.s
+
+tests/acceptor_probe.o: tests/acceptor_probe.cpp.o
+
+.PHONY : tests/acceptor_probe.o
+
+# target to build an object file
+tests/acceptor_probe.cpp.o:
+	$(MAKE) -f CMakeFiles/acceptor_probe.dir/build.make CMakeFiles/acceptor_probe.dir/tests/acceptor_probe.cpp.o
+.PHONY : tests/acceptor_probe.cpp.o
+
+tests/acceptor_probe.i: tests/acceptor_probe.cpp.i
+
+.PHONY : tests/acceptor_probe.i
+
+# target to preprocess a source file
+tests/acceptor_probe.cpp.i:
+	$(MAKE) -f CMakeFiles/acceptor_probe.dir/build.make CMakeFiles/acceptor_probe.dir/tests/acceptor_probe.cpp.i
+.PHONY : tests/acceptor_probe.cpp.i
+
+tests/acceptor_probe.s: tests/acceptor_probe.cpp.s
+
+.PHONY : tests/acceptor_probe.s
+
+# target to generate assembly for a file
+tests/acceptor_probe.cpp.s:
+	$(MAKE) -f CMakeFiles/acceptor_probe.dir/build.make CMakeFiles/acceptor_probe.dir/tests/acceptor_probe.cpp.s
+.PHONY : tests/acceptor_probe.cpp.s
 
 tests/buffer_test.o: tests/buffer_test.cpp.o
 
@@ -334,6 +507,33 @@ tests/channel_test.cpp.s:
 	$(MAKE) -f CMakeFiles/channel_test.dir/build.make CMakeFiles/channel_test.dir/tests/channel_test.cpp.s
 .PHONY : tests/channel_test.cpp.s
 
+tests/connection_checker.o: tests/connection_checker.cpp.o
+
+.PHONY : tests/connection_checker.o
+
+# target to build an object file
+tests/connection_checker.cpp.o:
+	$(MAKE) -f CMakeFiles/connection_checker.dir/build.make CMakeFiles/connection_checker.dir/tests/connection_checker.cpp.o
+.PHONY : tests/connection_checker.cpp.o
+
+tests/connection_checker.i: tests/connection_checker.cpp.i
+
+.PHONY : tests/connection_checker.i
+
+# target to preprocess a source file
+tests/connection_checker.cpp.i:
+	$(MAKE) -f CMakeFiles/connection_checker.dir/build.make CMakeFiles/connection_checker.dir/tests/connection_checker.cpp.i
+.PHONY : tests/connection_checker.cpp.i
+
+tests/connection_checker.s: tests/connection_checker.cpp.s
+
+.PHONY : tests/connection_checker.s
+
+# target to generate assembly for a file
+tests/connection_checker.cpp.s:
+	$(MAKE) -f CMakeFiles/connection_checker.dir/build.make CMakeFiles/connection_checker.dir/tests/connection_checker.cpp.s
+.PHONY : tests/connection_checker.cpp.s
+
 tests/event_loop_probe.o: tests/event_loop_probe.cpp.o
 
 .PHONY : tests/event_loop_probe.o
@@ -367,30 +567,50 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... event_loop"
-	@echo "... channel_test"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... channel"
-	@echo "... buffer_test"
-	@echo "... event_loop_probe"
 	@echo "... buffer"
+	@echo "... event_loop_probe"
+	@echo "... buffer_test"
+	@echo "... channel"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... channel_test"
+	@echo "... event_loop"
+	@echo "... acceptor"
+	@echo "... test"
+	@echo "... acceptor_probe"
+	@echo "... reactor_echo_server"
+	@echo "... connection"
+	@echo "... connection_checker"
+	@echo "... apps/reactor_echo_server.o"
+	@echo "... apps/reactor_echo_server.i"
+	@echo "... apps/reactor_echo_server.s"
+	@echo "... src/acceptor.o"
+	@echo "... src/acceptor.i"
+	@echo "... src/acceptor.s"
 	@echo "... src/buffer.o"
 	@echo "... src/buffer.i"
 	@echo "... src/buffer.s"
 	@echo "... src/channel.o"
 	@echo "... src/channel.i"
 	@echo "... src/channel.s"
+	@echo "... src/connection.o"
+	@echo "... src/connection.i"
+	@echo "... src/connection.s"
 	@echo "... src/event_loop.o"
 	@echo "... src/event_loop.i"
 	@echo "... src/event_loop.s"
+	@echo "... tests/acceptor_probe.o"
+	@echo "... tests/acceptor_probe.i"
+	@echo "... tests/acceptor_probe.s"
 	@echo "... tests/buffer_test.o"
 	@echo "... tests/buffer_test.i"
 	@echo "... tests/buffer_test.s"
 	@echo "... tests/channel_test.o"
 	@echo "... tests/channel_test.i"
 	@echo "... tests/channel_test.s"
+	@echo "... tests/connection_checker.o"
+	@echo "... tests/connection_checker.i"
+	@echo "... tests/connection_checker.s"
 	@echo "... tests/event_loop_probe.o"
 	@echo "... tests/event_loop_probe.i"
 	@echo "... tests/event_loop_probe.s"

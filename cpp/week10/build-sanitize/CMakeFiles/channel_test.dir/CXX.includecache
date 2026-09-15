@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/reactor/channel.hpp
+cstdint
+-
+functional
+-
+sys/epoll.h
+-
+
+/home/xgf/code/system-learning/cpp/week10/tests/channel_test.cpp
+channel.hpp
+/home/xgf/code/system-learning/cpp/week10/tests/channel.hpp
+iostream
+-
+cassert
+-
+gtest/gtest.h
+-
+

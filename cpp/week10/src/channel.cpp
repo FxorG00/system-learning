@@ -15,7 +15,14 @@ std::uint32_t Channel::interest_events() const noexcept {
 void Channel::set_interest_events(std::uint32_t events) noexcept {
     interest_mask_=events;
 }
-
+void Channel::add_interest_events(std::uint32_t events) noexcept {
+    interest_mask_|=events;
+}
+void Channel::del_interest_events(std::uint32_t events) noexcept {
+    if(interest_mask_&events) {
+        interest_mask_^=events;
+    }
+}
 std::uint32_t Channel::ready_events() const noexcept {
     return ready_mask_;
 }
@@ -34,7 +41,7 @@ void Channel::set_error_callback(Callback callback) {
 }
 
 void Channel::handle_event() {
-    if(ready_mask_&EPOLLIN) {
+    if((ready_mask_&EPOLLIN)||(ready_mask_&EPOLLRDHUP)||(ready_mask_&EPOLLHUP)) {
         if(read_callback_) {
             read_callback_();
         }
